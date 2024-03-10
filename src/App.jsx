@@ -9,7 +9,6 @@ function App() {
     .then(res => res.json())
     .then(data => setPhoto(data))
   },[])
-  console.log(photo)
   return (
     <>
       <h1 className="text-5xl font-bold text-center mt-2">Gallery</h1>
